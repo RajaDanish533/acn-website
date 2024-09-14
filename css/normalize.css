@@ -353,3 +353,8 @@ td,
 th {
   padding: 0;
 }
+
+
+.department-description h2.wsite-content-title a, .department-description .paragraph a, .department-description blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a{
+  color:#af3119 !important
+}

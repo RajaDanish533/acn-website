@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Sep 03 2024 17:55:24 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="66d74cf7943f0485d3ea656c" data-wf-site="66d74cf6943f0485d3ea64e1">
+
+<head>
+    <meta charset="utf-8">
+    <title>ACN Website - Covilla Code</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/acn-website---covilla-code.webflow.css" rel="stylesheet" type="text/css">
+    <style>
+        @media (min-width:992px) {
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4a0"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                background-color: rgba(255, 255, 255, 0);
+                border-color: rgba(192, 192, 211, 0.2);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4a2"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4b9"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                background-color: rgba(255, 255, 255, 0);
+                border-color: rgba(192, 192, 211, 0.2);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4bb"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4d2"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                background-color: rgba(255, 255, 255, 0);
+                border-color: rgba(192, 192, 211, 0.2);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4d4"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4eb"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                background-color: rgba(255, 255, 255, 0);
+                border-color: rgba(192, 192, 211, 0.2);
+            }
+
+            html.w-mod-js:not(.w-mod-ix) [data-w-id="f87a93a0-e501-c695-e58f-a0f271e0a4ed"] {
+                -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Inter:300,regular,500,600,700,800", "Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,700,800,900"] } });</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+
+<body class="body">
+    <div class="preloader">
+        <div class="preloader-indicator">
+            <div class="prloader-fill"></div>
+        </div>
+        <div class="preloader-top"></div>
+        <div class="preloader-bottom"></div>
+    </div>
+    <div class="scroll-indicator">
+        <div id="w-node-_9b3d0861-357f-c367-a479-19a8e9fb326e-e9fb326d" class="indicator-wrapper">
+            <div data-w-id="9b3d0861-357f-c367-a479-19a8e9fb326f" class="indicator-fill">
+                <div class="indicator"></div>
+            </div>
+        </div>
+        <div id="w-node-c731b8b6-3cab-0aea-30b7-7d5eb055e15c-e9fb326d" class="social-sidebar-icons">
+            <a href="https://www.instagram.com/tycreated/" target="_blank" class="sidebar-icon w-inline-block"><img
+                    src="images/covilla-instagram.svg" loading="lazy" alt=""></a>
+            <a href="https://twitter.com/Tycreated" target="_blank" class="sidebar-icon w-inline-block"><img
+                    src="images/covilla-facebook-f.svg" loading="lazy" alt=""></a>
+            <a href="https://twitter.com/Tycreated" target="_blank" class="sidebar-icon w-inline-block"><img
+                    src="images/covilla-linkedin.svg" loading="lazy" alt=""></a>
+        </div>
+    </div>
+    <div data-collapse="medium" data-animation="default" data-duration="600" data-doc-height="1" data-easing="ease"
+        data-easing2="ease" role="banner" class="navbar w-nav">
+        <div class="top-nav-wrapper">
+            <div class="flyout-menu-wrapper">
+                <div class="flyout-menu-content">
+                    <div class="flyout-heading">
+                        <h2>Explore vacations</h2>
+                    </div>
+                    <div id="scrollbar" class="scroll-flyout-wrapper">
+                        <div class="vacation-continents">
+                            <div id="w-node-_4cfce228-126e-9eef-5c8b-636096c68d68-d3468612" class="flyout-info-box">
+                                <div id="w-node-_33018cbc-db04-718c-d215-7d328d2214ef-d3468612"
+                                    class="subtitle-intro-wrapper">
+                                    <div class="subtitle">Choose a Continent</div>
+                                    <div id="w-node-_33018cbc-db04-718c-d215-7d328d2214f2-d3468612"
+                                        class="horizontal-line"></div>
+                                </div>
+                                <div class="w-dyn-list">
+                                    <div role="list" class="continent-list w-dyn-items">
+                                        <div role="listitem" class="w-dyn-item">
+                                            <a href="#" class="location-card w-inline-block">
+                                                <div class="location-name">
+                                                    <h4 class="w-dyn-bind-empty"></h4>
+                                                    <div class="subtitle-dynamic-text">
+                                                        <div class="subtitle w-dyn-bind-empty"></div>
+                                                        <div class="subtitle">vacations</div>
+                                                    </div>
+                                                </div>
+                                                <div id="w-node-_94c29d00-1d2a-d76c-ee44-42fd43ecfc9e-d3468612"
+                                                    class="card-arrow-icon"><img
+                                                        src="images/arrowhead-right-icon-dark-light.svg" loading="lazy"
+                                                        alt="" class="vacation-card-arrow"></div>
+                                                <div class="location-card-background">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div> -->
+                                </div>
+                            </div>
+                            <div id="w-node-_92abb93c-eb64-1a87-ea32-98e9c6f1d677-d3468612" class="flyout-info-box">
+                                <div id="w-node-_92abb93c-eb64-1a87-ea32-98e9c6f1d678-d3468612"
+                                    class="subtitle-intro-wrapper">
+                                    <div class="subtitle">Choose a Destination</div>
+                                    <div id="w-node-_92abb93c-eb64-1a87-ea32-98e9c6f1d67b-d3468612"
+                                        class="horizontal-line"></div>
+                                </div>
+                                <div class="w-dyn-list">
+                                    <div role="list" class="continent-list w-dyn-items">
+                                        <div role="listitem" class="w-dyn-item">
+                                            <a href="#" class="location-card w-inline-block">
+                                                <div class="location-name">
+                                                    <h4 class="w-dyn-bind-empty"></h4>
+                                                    <div class="subtitle-dynamic-text">
+                                                        <div class="subtitle w-dyn-bind-empty"></div>
+                                                        <div class="subtitle">vacations</div>
+                                                    </div>
+                                                </div>
+                                                <div id="w-node-_92abb93c-eb64-1a87-ea32-98e9c6f1d686-d3468612"
+                                                    class="card-arrow-icon"><img
+                                                        src="images/arrowhead-right-icon-dark-light.svg" loading="lazy"
+                                                        alt="" class="vacation-card-arrow"></div>
+                                                <div class="location-card-background">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div> -->
+                                </div>
+                            </div>
+                            <div id="w-node-a4181ea1-b90f-dce7-1ff2-23e3139ba538-d3468612" class="flyout-info-box">
+                                <div id="w-node-a4181ea1-b90f-dce7-1ff2-23e3139ba539-d3468612"
+                                    class="subtitle-intro-wrapper">
+                                    <div class="subtitle">Contact us</div>
+                                    <div id="w-node-a4181ea1-b90f-dce7-1ff2-23e3139ba53c-d3468612"
+                                        class="horizontal-line"></div>
+                                </div>
+                                <div class="quick-link-list">
+                                    <a href="https://calendly.com/" target="_blank"
+                                        class="quick-link-item w-inline-block">
+                                        <div id="w-node-_121c17b8-01e3-a1aa-a4ea-5f82f370ad3f-d3468612">Schedule a call
+                                        </div>
+                                        <div id="w-node-_121c17b8-01e3-a1aa-a4ea-5f82f370ad41-d3468612"
+                                            class="card-arrow-icon dark"><img
+                                                src="images/arrowhead-right-icon-dark001.svg" loading="lazy" alt=""
+                                                class="vacation-card-arrow">
+                                        </div>
+                                    </a>
+                                    <a href="mailto:info@template.com?subject=Hey!"
+                                        class="quick-link-item w-inline-block">
+                                        <div id="w-node-_121c17b8-01e3-a1aa-a4ea-5f82f370ad44-d3468612">
+                                            info@template.com</div>
+                                        <div id="w-node-_121c17b8-01e3-a1aa-a4ea-5f82f370ad46-d3468612"
+                                            class="card-arrow-icon dark"><img
+                                                src="images/arrowhead-right-icon-dark001.svg" loading="lazy" alt=""
+                                                class="vacation-card-arrow">
+                                        </div>
+                                    </a>
+                                    <a href="tel:+15555555555" class="quick-link-item w-inline-block">
+                                        <div id="w-node-_121c17b8-01e3-a1aa-a4ea-5f82f370ad49-d3468612">(555) 555-5555
+                                        </div>
+                                        <div class="card-arrow-icon dark"><img
+                                                src="images/arrowhead-right-icon-dark001.svg" loading="lazy" alt=""
+                                                class="vacation-card-arrow"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flyout-social-media">
+                                <div id="w-node-a949e8d2-8210-23c1-7007-d01371627841-d3468612" class="subtitle">Follow
+                                    us:</div>
+                                <div id="w-node-b81da175-c775-67a3-e76c-5239914deb8b-d3468612"
+                                    class="agent-social-media">
+                                    <a href="https://www.instagram.com/tycreated/" target="_blank"
+                                        class="agent-social-icon w-inline-block"><img src="images/Dark-instagram.svg"
+                                            loading="lazy" alt=""></a>
+                                    <a href="https://twitter.com/Tycreated" target="_blank"
+                                        class="agent-social-icon w-inline-block"><img src="images/dark-facebook-f.svg"
+                                            loading="lazy" alt=""></a>
+                                    <a href="https://twitter.com/Tycreated" target="_blank"
+                                        class="agent-social-icon w-inline-block"><img src="images/Dark-linkedin-2.svg"
+                                            loading="lazy" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-w-id="6252b416-c3c5-73fa-7b6c-666bfb79e89e" class="close-flyout"></div>
+            </div>
+            <div id="w-node-_69b0d3f6-d0cc-2db5-ee2d-841bd3468614-d3468612"
+                data-w-id="69b0d3f6-d0cc-2db5-ee2d-841bd3468614" class="left-nav">
+                <div data-w-id="69b0d3f6-d0cc-2db5-ee2d-841bd346861b" class="menu-button w-nav-button">
+                    <div data-is-ix2-target="1" class="menu-lottie" data-w-id="b66c9d5c-5d64-8ba7-12ad-b72b589f4229"
+                        data-animation-type="lottie" data-src="documents/menu-nav.json" data-loop="0" data-direction="1"
+                        data-autoplay="0" data-renderer="svg" data-default-duration="2.4791666666666665"
+                        data-duration="0" data-ix2-initial-state="0"></div>
+                </div>
+                <div data-w-id="69b0d3f6-d0cc-2db5-ee2d-841bd3468615" class="flyout-menu open">
+                    <div data-is-ix2-target="1" class="menu-lottie" data-w-id="be81bbea-25f2-a6cd-a450-45c63ab5efef"
+                        data-animation-type="lottie" data-src="documents/menu-nav.json" data-loop="0" data-direction="1"
+                        data-autoplay="0" data-renderer="svg" data-default-duration="2.4791666666666665"
+                        data-duration="0" data-ix2-initial-state="0"></div>
+                </div>
+                <div data-w-id="88b0f067-982b-0642-fc5d-73df7d5b3c68" class="flyout-menu close">
+                    <div data-is-ix2-target="1" class="menu-lottie" data-w-id="88b0f067-982b-0642-fc5d-73df7d5b3c69"
+                        data-animation-type="lottie" data-src="documents/menu-nav.json" data-loop="0" data-direction="1"
+                        data-autoplay="0" data-renderer="svg" data-default-duration="2.4791666666666665"
+                        data-duration="0" data-ix2-initial-state="0"></div>
+                </div>
+            </div>
+            <div id="w-node-_199fb1dc-b4ea-99c3-f373-804a90f62445-d3468612"
+                data-w-id="199fb1dc-b4ea-99c3-f373-804a90f62445" class="navigation-content">
+                <a href="index.html" data-w-id="69b0d3f6-d0cc-2db5-ee2d-841bd3468616" class="brand w-nav-brand">
+                    <div><span class="thin-span">Co</span>Villa</div>
+                </a>
+                <nav role="navigation" data-w-id="69b0d3f6-d0cc-2db5-ee2d-841bd346861d" class="nav-menu w-nav-menu">
+                    <div class="nav-menu-links">
+                        <a href="about.html" class="nav-link w-inline-block">
+                            <div class="link-text">About</div>
+                            <div class="link-cover"></div>
+                        </a>
+                        <a href="journal.html" class="nav-link w-inline-block">
+                            <div class="link-text">Journal</div>
+                            <div class="link-cover"></div>
+                        </a>
+                        <a href="support.html" class="nav-link w-inline-block">
+                            <div class="link-text">Support</div>
+                            <div class="link-cover"></div>
+                        </a>
+                    </div>
+                    <div class="mobile-destinations-wrapper">
+                        <div class="subtitle-intro-wrapper">
+                            <div class="subtitle">Destinations</div>
+                            <div id="w-node-_4a59f852-41bf-9100-21ba-09c186cccf0e-d3468612" class="horizontal-line">
+                            </div>
+                        </div>
+                        <div class="mobile-destinations w-dyn-list">
+                            <div role="list" class="mobile-destinations-list w-dyn-items">
+                                <div role="listitem" class="w-dyn-item">
+                                    <a href="#" class="mobile-destination-link w-inline-block">
+                                        <div class="w-dyn-bind-empty"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="w-dyn-empty">
+                <div>No items found.</div>
+              </div> -->
+                        </div>
+                    </div>
+                </nav>
+                <div class="right-nav">
+                    <div data-hover="false" data-delay="400" data-w-id="dd3fbb12-d823-4682-a076-5c6078f8b930"
+                        class="nav-button w-dropdown">
+                        <div data-w-id="dd3fbb12-d823-4682-a076-5c6078f8b931"
+                            class="nav-button-toggle w-dropdown-toggle"><img src="images/map-pin-icon-dark.svg"
+                                loading="lazy" alt="" class="dropdown-icon">
+                            <div class="dropdown-text">Destinations</div>
+                            <div data-w-id="744d6981-6d52-f27f-bf87-aa52f63ac2d9" data-is-ix2-target="1"
+                                class="dropdown-lottie" data-animation-type="lottie"
+                                data-src="documents/Villa-lottie.json" data-loop="0" data-direction="1"
+                                data-autoplay="0" data-renderer="svg" data-default-duration="2" data-duration="0"
+                                data-ix2-initial-state="50"></div>
+                        </div>
+                        <nav class="dropdown-list w-dropdown-list">
+                            <div class="dropdown-wrapper">
+                                <div class="subtitle-intro-wrapper">
+                                    <div class="subtitle">Choose a location</div>
+                                    <div id="w-node-_7694d946-2316-167d-af5b-7bb56fc2c743-d3468612"
+                                        class="horizontal-line"></div>
+                                </div>
+                                <div class="w-dyn-list">
+                                    <div role="list" class="destinations-list w-dyn-items">
+                                        <div role="listitem" class="w-dyn-item">
+                                            <a href="#" class="location-card w-inline-block">
+                                                <div class="location-name">
+                                                    <h4 class="w-dyn-bind-empty"></h4>
+                                                    <div class="subtitle-dynamic-text">
+                                                        <div class="subtitle w-dyn-bind-empty"></div>
+                                                        <div class="subtitle">vacations</div>
+                                                    </div>
+                                                </div>
+                                                <div id="w-node-_239c8558-1404-9f29-a4d9-791d8b603a3e-d3468612"
+                                                    class="card-arrow-icon"><img
+                                                        src="images/arrowhead-right-icon-dark-light.svg" loading="lazy"
+                                                        alt="" class="vacation-card-arrow"></div>
+                                                <div class="location-card-background">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div> -->
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-navigation-shade"></div>
+            <div id="w-node-c05fe523-5a2a-b171-9eca-362095d4bf72-d3468612"
+                data-w-id="c05fe523-5a2a-b171-9eca-362095d4bf72" class="navigation-shade"></div>
+        </div>
+    </div>
+    <div class="vacation-hero">
+        <div class="grid-wrapper">
+            <div id="w-node-_21a73135-ae5d-bce8-1441-6df1bec9e5fa-d3ea656c" class="product-hero-content">
+                <div class="vacation-hero-intro">
+                    <div class="subtitle-text-wrapper">
+                        <div class="subtitle w-dyn-bind-empty"></div>
+                        <div id="w-node-a953856a-024d-b59a-88f8-4d793c5fce1d-d3ea656c" class="horizontal-line light">
+                        </div>
+                        <div class="subtitle w-dyn-bind-empty"></div>
+                    </div>
+                    <h1 class="xxl-heading ">Ahtahkakoop ​Child & Family Service Inc.</h1>
+                </div>
+            </div>
+            <div data-delay="4000" data-animation="over" class="hero-slider w-slider" data-autoplay="false"
+                data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+                data-nav-spacing="3" data-duration="0" data-infinite="true"
+                id="w-node-_21a73135-ae5d-bce8-1441-6df1bec9e5fe-d3ea656c">
+                <div class="hero-slider-mask w-slider-mask">
+                    <div class="hero-slide w-slide">
+                        <div class="slider-background-wrapper hero-wrapper">
+                            <div class="slider-background">
+                                <div class="background">
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slide w-slide">
+                        <div class="slider-background-wrapper hero-wrapper">
+                            <div class="slider-background">
+                                <div class="background">
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slide w-slide">
+                        <div class="slider-background-wrapper hero-wrapper">
+                            <div class="slider-background">
+                                <div class="background">
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-slider-arrow left w-slider-arrow-left"><img src="images/arrow-left24x242x-1.svg"
+                        loading="lazy" alt="" class="slider-arrow-icon"></div>
+                <div class="product-slider-arrow w-slider-arrow-right"><img src="images/arrow-right24x242x-1.svg"
+                        loading="lazy" alt="" class="slider-arrow-icon"></div>
+                <div class="slide-nav w-slider-nav w-round"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+    <div class="product-images-row">
+        <div class="grid-wrapper">
+            <div id="w-node-d2061ad0-5899-1e1a-4f90-c5f927733ede-d3ea656c" class="vacation-images">
+                <div class="large-vacation-image" style="background-image: url('./images/department.png');">
+                    <a href="#" class="lightbox w-inline-block w-dyn-bind-empty w-lightbox">
+                        <div class="background-image-wrapper">
+                            <div class="team-background-image"></div>
+                        </div>
+                        <div class="lightbox-hover-coontent">
+                            <div class="view-image">
+                                <div id="w-node-_0ff47164-3651-b2ab-f68b-05c17785f1c1-d3ea656c"
+                                    class="team-location-icon"><img src="./images/department.png" loading="lazy" alt="">
+                                </div>
+                                <div class="subtitle">View image</div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "showcase"
+}</script>
+                    </a>
+                </div>
+                <div class="w-dyn-list">
+                    <div role="list" class="small-image-grid w-dyn-items">
+                        <div role="listitem" class="w-dyn-item">
+                            <div class="small-vacation-image" style="background-image: url('./images/department.png');">
+                                <a href="#" class="lightbox w-inline-block w-dyn-bind-empty w-lightbox">
+                                    <div class="background-image-wrapper">
+                                        <div class="team-background-image"></div>
+                                    </div>
+                                    <div class="lightbox-hover-coontent">
+                                        <div class="view-image">
+                                            <div id="w-node-a57a6733-84eb-0c70-69ab-d0acb25d640a-d3ea656c"
+                                                class="team-location-icon"><img src="./images/department.png"
+                                                    loading="lazy" alt=""></div>
+                                            <div class="subtitle">View image</div>
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "showcase"
+}</script>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                        <div role="listitem" class="w-dyn-item">
+                            <div class="small-vacation-image" style="background-image: url('./images/department.png');">
+                                <a href="#" class="lightbox w-inline-block w-dyn-bind-empty w-lightbox">
+                                    <div class="background-image-wrapper">
+                                        <div class="team-background-image"></div>
+                                    </div>
+                                    <div class="lightbox-hover-coontent">
+                                        <div class="view-image">
+                                            <div id="w-node-a57a6733-84eb-0c70-69ab-d0acb25d640a-d3ea656c"
+                                                class="team-location-icon"><img src="./images/department.png"
+                                                    loading="lazy" alt=""></div>
+                                            <div class="subtitle">View image</div>
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "showcase"
+}</script>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <div role="listitem" class="w-dyn-item">
+                            <div class="small-vacation-image" style="background-image: url('./images/department.png');">
+                                <a href="#" class="lightbox w-inline-block w-dyn-bind-empty w-lightbox">
+                                    <div class="background-image-wrapper">
+                                        <div class="team-background-image"></div>
+                                    </div>
+                                    <div class="lightbox-hover-coontent">
+                                        <div class="view-image">
+                                            <div id="w-node-a57a6733-84eb-0c70-69ab-d0acb25d640a-d3ea656c"
+                                                class="team-location-icon"><img src="./images/department.png"
+                                                    loading="lazy" alt=""></div>
+                                            <div class="subtitle">View image</div>
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "showcase"
+}</script>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                        <div role="listitem" class="w-dyn-item">
+                            <div class="small-vacation-image" style="background-image: url('./images/department.png');">
+                                <a href="#" class="lightbox w-inline-block w-dyn-bind-empty w-lightbox">
+                                    <div class="background-image-wrapper">
+                                        <div class="team-background-image"></div>
+                                    </div>
+                                    <div class="lightbox-hover-coontent">
+                                        <div class="view-image">
+                                            <div id="w-node-a57a6733-84eb-0c70-69ab-d0acb25d640a-d3ea656c"
+                                                class="team-location-icon"><img src="./images/department.png"
+                                                    loading="lazy" alt=""></div>
+                                            <div class="subtitle">View image</div>
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <script type="application/json" class="w-json">{
+  "items": [],
+  "group": "showcase"
+}</script>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="w-dyn-empty">
+            <div>No items found.</div>
+          </div> -->
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="department-description" style="padding: 10rem;">
+
+
+
+
+
+
+        <div id="wsite-content" class="wsite-elements wsite-not-footer">
+            <div class="wsite-section-wrap" style="margin-bottom: 10rem;">
+                <div
+                    class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-26 wsite-custom-background">
+                    <div class="wsite-section-content">
+                        <div class="container">
+                            <div class="wsite-section-elements">
+                                <div>
+                                    <div class="wsite-image wsite-image-border-none "
+                                        style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+                                        <a>
+                                            <img src="./images/sunallthing.png" alt="Picture"
+                                                style="width:auto;max-width:100%">
+                                        </a>
+                                        <div style="display:block;font-size:90%"></div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="wsite-multicol">
+                                        <div class="wsite-multicol-table-wrap" style="margin:0 -15px; ">
+                                            <table class="wsite-multicol-table">
+                                                <tbody class="wsite-multicol-tbody">
+                                                    <tr class="wsite-multicol-tr">
+                                                        <td class="wsite-multicol-col"
+                                                            style="width:50%; padding:0 15px;">
+
+
+
+                                                            <h2 class="wsite-content-title" style="text-align:center;">
+                                                                Vision</h2>
+
+                                                            <div class="paragraph" style="text-align:center;">
+                                                                <font color="#000000">Strong, prosperous families and
+                                                                    community with safe and healthy children</font>
+                                                            </div>
+
+
+
+                                                        </td>
+                                                        <td class="wsite-multicol-col"
+                                                            style="width:50%; padding:0 15px;">
+
+
+
+                                                            <h2 class="wsite-content-title" style="text-align:center;">
+                                                                Mission</h2>
+
+                                                            <div class="paragraph" style="text-align:center;">
+                                                                <font color="#000000">To ensure the well-being of our
+                                                                    children and families by providing protective and
+                                                                    preventative support services.</font>
+                                                            </div>
+
+
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="wsite-section-wrap">
+                <div class="wsite-section wsite-body-section wsite-background-76 wsite-custom-background">
+                    <div class="wsite-section-content">
+                        <div class="container">
+                            <div class="wsite-section-elements">
+                                <div>
+                                    <div class="wsite-multicol">
+                                        <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                                            <table class="wsite-multicol-table">
+                                                <tbody class="wsite-multicol-tbody">
+                                                    <tr class="wsite-multicol-tr">
+                                                        <td class="wsite-multicol-col"
+                                                            style="width:39.79797979798%; padding:0 15px;">
+
+
+
+                                                            <div class="wsite-spacer" style="height:19px;"></div>
+
+                                                            <h2 class="wsite-content-title">Contact Information</h2>
+
+                                                            <div class="paragraph">&ZeroWidthSpace;Box 10, Mont Nebo,
+                                                                SK, S0J 1X0<span> </span><br>Phone: <a
+                                                                    href="tel:3064682520">306-468-2520</a><span>
+                                                                </span><br>Fax: <a
+                                                                    href="tel:3064682524">306-468-2524</a><span>
+                                                                </span><br>On Call Emergency: <a
+                                                                    href="tel:3064684680">306-468-4680</a><span>
+                                                                </span><br>Toll Free: <a
+                                                                    href="tel:18887450470">1-888-745-0470</a><span>
+                                                                </span><br><strong>Director of ACFS: </strong><a
+                                                                    href="mailto:aahenakew@acncfs.ca">Anita
+                                                                    Ahenakew</a><span> </span><br><strong>Child
+                                                                    Protection Supervisor: </strong><a
+                                                                    href="mailto:lgreyeyes@acncfs.ca">Lisa
+                                                                    Greyeyes</a><span> </span><br><strong>Child
+                                                                    Protection Worker: </strong><a
+                                                                    href="mailto:csanderson@acncfs.ca">Cheryl
+                                                                    Sanderson</a></div>
+
+
+
+                                                        </td>
+                                                        <td class="wsite-multicol-col"
+                                                            style="width:60.20202020202%; padding:0 15px;">
+
+
+
+                                                            <div>
+                                                                <div class="wsite-image wsite-image-border-none "
+                                                                    style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+                                                                    <a>
+                                                                        <img src="./images/everyChildMatters.jpg"
+                                                                            alt="Picture"
+                                                                            style="width:auto;max-width:100%">
+                                                                    </a>
+                                                                    <div style="display:block;font-size:90%"></div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="wsite-section-wrap">
+                <div class="wsite-section wsite-body-section wsite-background-55 wsite-custom-background">
+                    <div class="wsite-section-content" style="margin-top: 7rem;">
+                        <div class="container">
+                            <div class="wsite-section-elements">
+                                <h2 class="wsite-content-title">Business Focus</h2>
+
+                                <div class="paragraph">ACFS priority for the upcoming year is to maintain the unity of
+                                    families of the Ahtahkakoop Cree Nation. To work collaboratively with the essential
+                                    services within the community in order to implement programming based on community
+                                    needs to ensure that the families are provided with the support services to
+                                    establish a supportive preventative program. ACFS has contracted a consultant to do
+                                    a Community Needs Assessment to determine and address the needs or gaps between the
+                                    current state and the desired state. The benefits of the Community Needs Assessment
+                                    allows for community input and an increased understanding of why the needs exist and
+                                    why they need to be addressed. The needs assessment engages all Community members to
+                                    work collaboratively to improve the quality of life and help identify priorities.
+                                    The Prevention Program provides healing initiatives in a concerted effort to
+                                    establish effective support programs that will promote family
+                                    cohesiveness.<br><br>&ZeroWidthSpace;The Prevention Program has been more proactive
+                                    by way of reimbursements to different departments that work with youth. This ensures
+                                    that there are more activities and manpower to assist in meeting our strategic plan
+                                    of healthy families, children and youth. ACFS will work diligently with Leadership
+                                    to achieve self-determination and build on the sustainability of Ahtahkakoop Cree
+                                    Nation by way of promoting healthy, strong, prosperous families. ACFS will continue
+                                    to implement least intrusive measures in assessing the safety of children and
+                                    prevent the continued perpetuation of the historical disadvantages of First Nations.
+                                    ACFS will ensure that family, cultural and linguistic connections for children,
+                                    youth and family are upheld as this is what the Canadian Human Rights Tribunal is
+                                    based on.<br><br>The ACFS mandate is the protection and safety of the children of
+                                    the Ahtahkakoop Cree Nation and this supersedes any on-going support services and
+                                    programs if the safety of children is compromised.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="wsite-section-wrap" style="margin-top: 7rem;">
+                <div class="wsite-section wsite-body-section wsite-background-54 wsite-custom-background">
+                    <div class="wsite-section-content">
+                        <div class="container">
+                            <div class="wsite-section-elements">
+                                <h2 class="wsite-content-title">2018-2019 Results</h2>
+
+                                <div class="paragraph">
+                                    <ol>
+                                        <li>Community partnerships and engagement: ACFS continues to provide activities
+                                            throughout the year as part of community participation and to promote
+                                            wellness. Some of these activities have included the: Family Festival,
+                                            Natural Parents Camp, Care-giver’s Retreat, Empowering our Women,
+                                            Traditional Parenting, and six week Life Skills Workshops. ACFS also works
+                                            collaboratively with Ahtahkakoop’s various departments through inter-Agency
+                                            meetings to provide a coordinated effort for all programs provided
+                                            throughout the year.</li>
+                                        <li>Human Resources: ACFS has hired more staff to ensure that there are support
+                                            programs and integrated service delivery by hiring qualified staff to
+                                            address the needs of the community. ACFS will continually hire staff as the
+                                            need arises to meet the needs of the community by offering a full complement
+                                            of child welfare services. ACFS continues to provide quality assurance in
+                                            service delivery in all aspects of child welfare and support services to the
+                                            community by ensuring relevant and up-to-date training for staff.</li>
+                                        <li>Foster Parenting Program: ACFS continues to deliver training for foster
+                                            parents with the PRIDE and CORE modules as well as the Cultural Curriculum.
+                                            Caregivers will be trained with the new digital “Caring for Aboriginal
+                                            Children” module as needed. ACFS strives to ensure that our children are
+                                            placed within their family system wherever possible or with band members.
+                                            Caregivers are required to take culturally relevant training and are well
+                                            equipped and supported to look after the needs of the children of
+                                            Ahtahkakoop.</li>
+                                        <li>ACFS has acquired the services of Red Mane for the implementation of a new
+                                            user friendly database system. The new database system will enable the
+                                            Agency to have access to accurate data and to ensure better service deliver
+                                            and relevant support programs and services.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="wsite-section-wrap" style="margin-top: 7rem;">
+                <div class="wsite-section wsite-body-section wsite-background-53 wsite-custom-background">
+                    <div class="wsite-section-content">
+                        <div class="container">
+                            <div class="wsite-section-elements">
+                                <h2 class="wsite-content-title">Objectives</h2>
+
+                                <div class="paragraph">
+                                    <ul>
+                                        <li>ACFS will ensure the mandate is upheld to keep children, youth and families
+                                            safe and protected.<br><span></span></li>
+                                        <li>ACFS will provide a coordinated enhanced preventative service to on-reserve
+                                            children and families.<br><span></span></li>
+                                        <li>ACFS will continue to strive for excellence in the Human Resources
+                                            department by continuing to train in order to enhance the skills and
+                                            professional abilities of staff. We will be implementing a new Human
+                                            Resources Manual specific to ACFS.<br><span></span></li>
+                                        <li>ACFS will promote community partnerships that will engage community
+                                            participation and engagement along with various departments, which will
+                                            include activities/events/workshops that are deemed essential throughout the
+                                            year.<br><span></span></li>
+                                        <li>ACFS will continue to provide timely, transparent and accountable program
+                                            reports and financial reports while working towards
+                                            accreditation.<br><span></span></li>
+                                        <li>ACFS has established a database, IT system to enable tracking and
+                                            performance measures related to client specific activities.<br><span></span>
+                                        </li>
+                                        <li>ACFS will facilitate continuous improvement in financial sustainability and
+                                            expenditures to ascertain that funds are expended for the purpose
+                                            intended.<br><span></span></li>
+                                        <li>ACFS will continue to increase and promote Cultural practices and
+                                            programming for all clientele and community members in
+                                            Ahtahkakoop.<br><span></span></li>
+                                        <li>ACFS has updated policies; specific to ACFS. These include Human Resources,
+                                            Financial Management, Occupational Health and Safety, and are currently
+                                            working towards implementation and approval, with accreditation being the
+                                            overall goal.<br><span></span></li>
+                                        <li>Expansion of the ACFS building will include six offices and a training
+                                            centre to better accommodate the growth of the community.<br><span></span>
+                                        </li>
+                                        <li>Development of an emergency receiving home and family wellness centre (long
+                                            term).<br><span></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="footer">
+        <div class="grid-wrapper">
+            <div id="w-node-f6cb7662-2e8e-b732-31c0-1f9a59d49f93-59d49f91" class="horizontal-line left"></div>
+            <div id="w-node-_0313ac4f-0baf-452b-a290-5f7efbd43f5a-59d49f91" class="footer-wrapper">
+                <div id="w-node-d8eb6401-e01b-7668-75ac-322d0c5697d4-59d49f91" class="footer-pages">
+                    <!-- <div class="footer-destination-text">
+            <div>Destinations</div>
+          </div> -->
+                    <div class="w-dyn-list">
+                        <div role="list" class="footer-destinations w-dyn-items">
+                            <div role="listitem" class="w-dyn-item">
+                                <a data-w-id="7cee9067-9361-8978-101d-fda8afb9fa10" href="#"
+                                    class="footer-link w-inline-block">
+                                    <div class="link-text w-dyn-bind-empty"></div>
+                                    <div class="link-cover"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div> -->
+                    </div>
+                </div>
+                <div id="w-node-_2021dbe6-3066-ab2b-d9b3-82f2659c2ebe-59d49f91" class="footer-logo">
+                    <div><span class="thin-span">co</span>villa</div>
+                </div>
+                <div id="w-node-dfd23af6-828d-947c-849f-db9f9e2ea42e-59d49f91" class="credit-text">© 2021 COVILLA</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66d74cf6943f0485d3ea64e1"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+
+</html>
