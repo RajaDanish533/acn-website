@@ -3981,7 +3981,7 @@ blockquote {
 .feature-item {
   grid-column-gap: 16px;
   grid-row-gap: 18px;
-  color: var(--body-display);
+  color: #ffffff;
   background-color: #fff;
   border-radius: 12px;
   grid-template-rows: auto auto;
@@ -3993,6 +3993,10 @@ blockquote {
   transition: box-shadow .5s cubic-bezier(.25, .46, .45, .94);
   display: grid;
   position: relative;
+  background-image: url("../images/dreamcaher.jpg");
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent tiling of the image */
 }
 
 .feature-item:hover {
@@ -4014,7 +4018,7 @@ blockquote {
 .feature-text {
   grid-column-gap: 16px;
   grid-row-gap: 9px;
-  text-align: center;
+  /* text-align: center; */
   grid-template-rows: auto auto;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
