@@ -9316,3 +9316,87 @@ blockquote {
 .justify-between{
   justify-content: space-between;
 }
+
+
+.product-images-row {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.product-images-row h2 {
+  padding-left: 10%;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.large-vacation-image-custom .grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+ .large-vacation-image-custom {
+  background-color: #f8f8f8;
+  padding: 10%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.large-vacation-image-custom h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.large-vacation-image-custom .card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.large-vacation-image-custom .card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.large-vacation-image-custom .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.large-vacation-image-custom .card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.large-vacation-image-custom .card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.large-vacation-image-custom .card a:hover {
+  background-color: #0056b3;
+}
+.large-vacation-image-custom .card-grid{
+  display: flex;
+}
