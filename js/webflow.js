@@ -3971,7 +3971,7 @@
       })("versions", []).push({
         version: "3.19.0",
         mode: IS_PURE ? "pure" : "global",
-        copyright: "\xA9 2021 Denis Pushkarev (zloirock.ru)"
+        copyright: "\xA9 2024 Denis Pushkarev (zloirock.ru)"
       });
     }
   });
