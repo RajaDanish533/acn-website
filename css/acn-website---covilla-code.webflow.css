@@ -9341,7 +9341,7 @@ blockquote {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .large-vacation-image-custom h3 {
@@ -9356,7 +9356,7 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  justify-content: start;
 }
 
 .large-vacation-image-custom .card {
@@ -9399,4 +9399,5 @@ blockquote {
 }
 .large-vacation-image-custom .card-grid{
   display: flex;
+  justify-content: start;
 }
